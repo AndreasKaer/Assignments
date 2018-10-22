@@ -9,8 +9,10 @@ public class Modul_13_opg {
 
     public static void main(String[] args) {
         
+        // Creating the File class location for my twocolors.csv
         File myFile = new File("F:\\SDU\\SEST\\NetBeans projekts\\Assignments\\twocolors.csv");
         
+        // Creating the PrintWriter class to write to the File
         PrintWriter pw;
         try {
             pw = new PrintWriter(myFile);
@@ -25,7 +27,8 @@ public class Modul_13_opg {
         } catch (Exception e) {
             System.out.println("There was an error writing to the file");
         }
-
+        
+        // Creating the Scanner class to read from the File
         Scanner reader;
         try {
             reader = new Scanner(myFile);
