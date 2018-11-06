@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HelloWorld_JavaFX.jnlp">
+  <information>
+    <title>HelloWorld_JavaFX</title>
+    <vendor>akl49</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HelloWorld_JavaFX.jar" size="2306" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="HelloWorld_JavaFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="helloworld_javafx.HelloWorld_JavaFX"  name="HelloWorld_JavaFX" />
+  <update check="always"/>
+</jnlp>
